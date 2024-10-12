@@ -28,5 +28,5 @@ Gesture Recognition:
 - MediaPipe processes the input to detect predefined gestures.
 - Encryption/Decryption based on user input
 
-When the 3 recognized gestures are performed in order, the Fernet key from the environment variable (lockdf) is used to encrypt or decrypt the folder.
-All files within the folder are restored to their original form.
+When the 3 recognized gestures are performed in order, the Fernet key from the environment variable (lockdf) is used to encrypt or decrypt the folder "confidential".
+All files within this folder are either encrypted using the key in the environmental variable or restored to their original form, based on user selection.
