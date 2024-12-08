@@ -1,4 +1,4 @@
-# 🔒 Hand Gesture Lock 
+# 🔒 Gesture Lock 
 
 This project leverages **MediaPipe** for hand-tracking to enable **gesture-based encryption and decryption** of folders. It uses **Fernet encryption** from the `cryptography` library, with the encryption key securely stored in an environment variable (`lockdf`). Three distinct hand gestures are used to lock (encrypt) and unlock (decrypt) a folder, making the security mechanism both intuitive and innovative.
 
